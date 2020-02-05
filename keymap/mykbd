@@ -1,0 +1,8 @@
+xkb_keymap {
+	xkb_keycodes  { include "evdev+aliases(azerty)"	};
+	xkb_types     { include "complete"	};
+	xkb_compat    { include "complete"	};
+	xkb_symbols   { include "pc+myfr+inet(evdev)+terminate(ctrl_alt_bksp)"	};
+	xkb_geometry  { include "pc(pc102)"	};
+};
+
